@@ -8,7 +8,6 @@ window.addEventListener("load", function(){
             const container = document.getElementById("container");
             
            for(i = 0; i < json.length; i++) {
-               console.log(json[i].active.color);
                 container.innerHTML =  container.innerHTML + `
                 <div class = "astronaut">
                     <div class = "bio">
